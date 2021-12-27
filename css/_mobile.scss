@@ -1,0 +1,26 @@
+/*** Mobile ***/
+@media (max-width: 967px) {
+	body {
+		font-size: 16px;
+	}
+
+	.subscribe {
+		.form {
+			flex-direction: column;
+
+			.input {
+				order: 0;
+			}
+
+			.warning-msg {
+				order: 1;
+				text-align: center;
+				margin-bottom: 2em;
+			}
+
+			.btn {
+				order: 2;
+			}
+		}
+	}
+}
